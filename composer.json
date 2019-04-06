@@ -1,0 +1,11 @@
+{
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.laravel-china.org"
+        }
+    },
+    "require": {
+        "predis/predis": "^1.1"
+    }
+}
