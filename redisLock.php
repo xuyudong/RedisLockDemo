@@ -95,8 +95,8 @@ class Lock_Service
     {
         $objRedis = new \Predis\Client();
         $objRedis->connect(['scheme' => 'tcp',
-            'host'   => 'localhost',
-            'port'   => 6379,]);
+            'host'   => self::REDIS_CONFIG_HOST,
+            'port'   => self::REDIS_CONFIG_PORT,]);
         return $objRedis;
     }
 
